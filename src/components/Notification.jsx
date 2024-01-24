@@ -2,7 +2,6 @@ import { useNotifValue} from "../NotificationContext"
 
 const Notification = () => {
   const notif = useNotifValue()
-  console.log(notif)
 
   const style = {
     border: 'solid',
